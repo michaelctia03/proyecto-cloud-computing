@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Cloud Computing</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 750px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.4rem;
+        }
+
+        .estado {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 18px;
+            border-radius: 30px;
+            background: #22c55e;
+            color: #06280f;
+            font-weight: bold;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .tarjeta {
+            padding: 20px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        footer {
+            margin-top: 30px;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>☁️ Proyecto Final Cloud Computing</h1>
+
+        <p>
+            Aplicación web desarrollada con Flask y ejecutada dentro de un
+            contenedor Docker.
+        </p>
+
+        <div class="estado">✅ Aplicación funcionando correctamente</div>
+
+        <section class="tarjetas">
+            <article class="tarjeta">
+                <h2>🐍 Flask</h2>
+                <p>Aplicación web desarrollada en Python.</p>
+            </article>
+
+            <article class="tarjeta">
+                <h2>🐳 Docker</h2>
+                <p>Aplicación empaquetada en un contenedor portable.</p>
+            </article>
+
+            <article class="tarjeta">
+                <h2>☁️ Cloud</h2>
+                <p>Proyecto preparado para ser desplegado en la nube.</p>
+            </article>
+        </section>
+
+        <footer>
+            Desarrollado por Michael Corrales — Cloud Computing
+        </footer>
+    </main>
+</body>
+</html>
